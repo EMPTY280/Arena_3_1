@@ -89,7 +89,8 @@ namespace ArenaGame
         {
             rectTransform.anchoredPosition = outScreenPos;
             canInteract = false;
-            state = 4;
+            state = 0;
+            animTime = 1f;
         }
 
         /// <summary>

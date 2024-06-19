@@ -62,7 +62,7 @@ namespace ArenaGame
                     break;
                 case State.GAMEOVER:
                     gameOverDelay += Time.deltaTime;
-                    if (gameOverDelay < 1.5f) break;
+                    if (gameOverDelay < 2.3f) break;
 
                     if (Input.GetKeyDown(KeyCode.Space)
                         || Input.GetMouseButton(0))
